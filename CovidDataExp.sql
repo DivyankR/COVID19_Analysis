@@ -32,6 +32,14 @@ where continent!='Null'
 group by location,population
 order by InfectionPercentage desc
 
+--Countries with date-wise infection rates 
+
+select location, date, population, max(total_cases) as HighestInfectionCount, max((cast(total_cases as float)/cast(nullif(population,0) as float))*100) as InfectionPercentage
+from PortfolioProject..CovidDeaths
+where continent!='Null'
+group by location,population,date
+order by InfectionPercentage desc
+
 -- Showing countries with highest death count
 
 select location, max(total_deaths) as TotalDeathCount
