@@ -19,7 +19,7 @@ This visualization represents the **current** infection percentage worldwide.
 ![infected_population_per_country](https://user-images.githubusercontent.com/89622692/137623336-1f7aef82-787e-46d2-8559-c5a90bc9807c.PNG)
 
 # Timeline of Infection Percentage(Trendline Graph)
-This visualization represents the timeline of infection percentage in United Stated, India, China, Japan, United Kingdom and Russia.
+This visualization represents the timeline of infection percentage in United States, India, China, Japan, United Kingdom and Russia.
 
 ![infection_percentage_worm](https://user-images.githubusercontent.com/89622692/137623686-aaabf0db-701a-4411-9e2f-260a1ec3690f.PNG)
 
